@@ -45,13 +45,11 @@ $textP: (
 
 
 .box_Img {
-	//@include boxes(985px,415px,20px 30px ,30px auto );
-	@include boxes(auto,auto,auto auto ,auto auto );
-   	overflow: hidden;
+	//@include boxes(985px,415px,20px 30px , );
+	@include boxes(50%,100% ,auto auto ,20px 20px);
 	border: solid #7178b7b3 2px;
 	box-sizing: border-box;
-    margin-left: 150px;  
-	display: flex; 
+	display: block; 
 
 }
 
